@@ -7,46 +7,60 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<script type="text/javascript" src="script/javascript.js">
 		</script>
-		<h1>Newsletter Signup Page</h1>
+		
 	</head>
 		
 		<body>
+			<h1>Newsletter Signup Page</h1>
+			
 			<img class="water" src="css/water.png" ></img>
 			<img class="land" src="css/land.png"></img>
 
+
 			<form>
-				<p>
-				<label>First Name:</label>
-				<input type="text" placeholder="Enter your name here."/>
-				<label>Surname</label>
-				<input type="text" placeholder="Enter your surname here."/>
+				
+				<br>
+				<div class="name">
+				<label class="fname">First Name</label>        <label class="sname">Last Name</label>
+				<br>
+				<input class="fnameb" type="text" placeholder="First Name"/>
+				<input class="snameb" type="text" placeholder="Last Name"/>
+				<br><br>
+				
+				</div>
+				
+				<div class="email">
+				<label>Email Adress:</label> <br>
+				<input class="email2" name="email" type="text" placeholder="Enter Your Email Here" required />
 				<br>
 				
-				<label>Email:</label> 
-				<input name="email" type="text" placeholder="Enter Your Email Here" required />
-				<label>Date Of Birth:</label> 
-				<input name="dob" type="Date" placeholder="Enter Your Date Of Birth." required/>
+				<label>Date Of Birth:</label> <br>
+				<input class="dob"name="dob" type="Date" placeholder="Enter Your Date Of Birth" required/>
 				<br>
 				<br>
-				
+				</div>
 
 				<h3>What are you most interested in ?:</h3>
+				<div class="int">
 				<label>Land Life:</label>
 				<input name="interest" type="radio"/>
 				<label>Aquatic Life:</label>
 				<input name="interest" type="radio"/>
+				</div>
 
 				<h3>Would you like to receive notifications ?:</h3>
+				<div class="notis">
 				<label>Yes:</label>
 				<input name="notis" type="radio"/>
 				<label>No:</label>
 				<input name="notis" type="radio"/>
 				<br>
 				<br>
+				</div>
 				
 				<button>Submit</button>
 				<input type="reset" value="Reset">
-				</p>
+				
 			</form>
 			
 			

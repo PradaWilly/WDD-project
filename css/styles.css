@@ -1,14 +1,12 @@
 h1{
     text-align:center;
+    border: 10px solid black;
+    border-width: 90%;
+    border-radius:20px;
+    padding: 10px;
+    background-color: rgb(244, 247, 247);  
 }
 
-head{
-    color:#000;
-}
-
-form {
-    text-align:center;
-}
 
 .water{
     float: right;
@@ -28,3 +26,59 @@ body{
     background-image: linear-gradient(to right,rgb(73, 110, 37), rgb(42, 113, 132) );
 }
 
+.name{
+    font-size: 25px;
+   
+}
+    
+.email{
+    font-size:25px;
+    padding-left:718px
+    
+    
+}
+
+.sname{
+    margin-left:230px;
+    margin-right:20px;
+}
+
+.snameb{
+    padding:11px;
+    margin-left: 125px;
+    border-radius:10px;
+    padding-right:50px;
+    border:3px gray solid;
+}
+
+.fname{
+    margin-left:15px;
+}
+
+.fnameb{
+    padding:10px;
+    margin-left:15px;
+    border-radius:10px;
+    padding-right:40px;
+    border:3px gray solid;
+   
+}
+
+.dob{
+    padding:10px;
+    padding-left:170px;
+    padding-right:170px;
+    border-radius:10px;
+    border:3px gray solid;
+    text-align: right;
+}
+
+.email2{
+    padding:10px;
+    padding-left:148px;
+    padding-right:148px;
+    border-radius:10px;
+    border:3px gray solid;
+    text-align: center;
+   
+}
