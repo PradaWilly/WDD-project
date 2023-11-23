@@ -1,5 +1,9 @@
-h1 {
+h1{
     text-align:center;
+}
+
+head{
+    color:#000;
 }
 
 form {
@@ -7,13 +11,20 @@ form {
 }
 
 .water{
-    float:right;
+    float: right;
     height:100%;
     width:35%;
+    height: 1000px;
 }
 
 .land{
-    float:left;
+    float: left;
     height:100%;
     width:35%;
+    height: 1000px;
 }
+
+body{
+    background-image: linear-gradient(to right,rgb(73, 110, 37), rgb(42, 113, 132) );
+}
+
