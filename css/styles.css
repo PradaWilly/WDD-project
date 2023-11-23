@@ -23,7 +23,7 @@ h1{
 }
 
 body{
-    background-image: linear-gradient(to right,rgb(73, 110, 37), rgb(42, 113, 132) );
+    background-image: linear-gradient(to right,rgb(73, 110, 37), rgb(14, 166, 208) );
 }
 
 .name{
@@ -48,7 +48,7 @@ body{
     margin-left: 125px;
     border-radius:10px;
     padding-right:50px;
-    border:3px gray solid;
+    border:4px gray solid;
 }
 
 .fname{
@@ -60,7 +60,7 @@ body{
     margin-left:15px;
     border-radius:10px;
     padding-right:40px;
-    border:3px gray solid;
+    border:4px gray solid;
    
 }
 
@@ -69,7 +69,7 @@ body{
     padding-left:170px;
     padding-right:170px;
     border-radius:10px;
-    border:3px gray solid;
+    border:4px gray solid;
     text-align: right;
 }
 
@@ -78,7 +78,40 @@ body{
     padding-left:148px;
     padding-right:148px;
     border-radius:10px;
-    border:3px gray solid;
+    border:4px gray solid;
     text-align: center;
    
 }
+
+h2{
+    text-align: center;
+}
+
+.int{
+    font-size: 25px;
+    text-align: center;
+}
+
+.notis{
+    font-size: 25px;
+    text-align: center;
+}
+
+.but{   
+    margin-left:70px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;;
+    border:4px gray solid;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: rgb(42, 123, 136); 
+    color: white;
+}
+
+button {
+    transition-duration: 0.4s;
+  }
+
