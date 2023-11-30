@@ -1,0 +1,117 @@
+.crh1{
+    text-align:center;
+    border: 10px solid black;
+    border-width: 90%;
+    border-radius:20px;
+    padding: 10px;
+    background-color: rgb(244, 247, 247);  
+}
+
+
+.crwater{
+    float: right;
+    height:100%;
+    width:35%;
+    height: 1000px;
+}
+
+.crland{
+    float: left;
+    height:100%;
+    width:35%;
+    height: 1000px;
+}
+
+.crbody{
+    background-image: linear-gradient(to right,rgb(73, 110, 37), rgb(14, 166, 208) );
+}
+
+.crname{
+    font-size: 25px;
+   
+}
+    
+.cremail{
+    font-size:25px;
+    padding-left:718px
+    
+    
+}
+
+.sname{
+    margin-left:230px;
+    margin-right:20px;
+}
+
+.snameb{
+    padding:11px;
+    margin-left: 125px;
+    border-radius:10px;
+    padding-right:50px;
+    border:4px gray solid;
+}
+
+.fname{
+    margin-left:15px;
+}
+
+.fnameb{
+    padding:10px;
+    margin-left:15px;
+    border-radius:10px;
+    padding-right:40px;
+    border:4px gray solid;
+   
+}
+
+.crdob{
+    padding:10px;
+    padding-left:170px;
+    padding-right:170px;
+    border-radius:10px;
+    border:4px gray solid;
+    text-align: right;
+}
+
+.cremail2{
+    padding:10px;
+    padding-left:148px;
+    padding-right:148px;
+    border-radius:10px;
+    border:4px gray solid;
+    text-align: center;
+   
+}
+
+.crh2{
+    text-align: center;
+}
+
+.crint{
+    font-size: 25px;
+    text-align: center;
+}
+
+.crnotis{
+    font-size: 25px;
+    text-align: center;
+}
+
+.crbut{   
+    margin-left:70px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;;
+    border:4px gray solid;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: rgb(42, 123, 136); 
+    color: white;
+}
+
+button {
+    transition-duration: 0.4s;
+  }
+
