@@ -3,24 +3,31 @@
 <html lang="en">
 
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<title>Newsletter</title>
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/styles.css">
 		<script type="text/javascript" src="script/javascript.js">
 		</script>
+
 		
 	</head>
 		
-		<body>
-			<h1>Newsletter Signup Page</h1>
+
+		<body class="crbody">
+			<h1 class="crh1">Newsletter Signup Page</h1>
 			
-			<img class="water" src="css/water.png" ></img>
-			<img class="land" src="css/land.png"></img>
+			<img class="crwater" src="css/water.png" ></img>
+			<img class="crland" src="css/land.png"></img>
 
 
-			<form>
+			<form id="signupForm">
 				
 				<br>
-				<div class="name">
+				<div class="crname">
 				<label class="fname">First Name</label>        <label class="sname">Last Name</label>
 				<br>
 				<input class="fnameb" type="text" placeholder="First Name" required/>
@@ -29,27 +36,27 @@
 				
 				</div>
 				
-				<div class="email">
+				<div class="cremail">
 				<label>Email Adress:</label> <br>
-				<input class="email2" name="email" type="text" placeholder="Enter Your Email Here" required />
+				<input class="cremail2" name="email" type="text" placeholder="Enter Your Email Here" required />
 				<br>
 				
 				<label>Date Of Birth:</label> <br>
-				<input class="dob"name="dob" type="Date" placeholder="Enter Your Date Of Birth" required/>
+				<input class="crdob"name="dob" type="Date" placeholder="Enter Your Date Of Birth" required/>
 				<br><br>
 				
 				</div>
 
-				<h2>What are you most interested in ?:</h2>
-				<div class="int">
+				<h2 class="crh2">What are you most interested in ?:</h2>
+				<div class="crint">
 				<label>Land Life:</label>
 				<input name="interest" type="radio"/>
 				<label>Aquatic Life:</label>
 				<input name="interest" type="radio"/>
 				</div><br>
 
-				<h2>Would you like to receive notifications ?:</h2>
-				<div class="notis">
+				<h2 class="crh2">Would you like to receive notifications ?:</h2>
+				<div class="crnotis">
 				<label>Yes:</label>
 				<input name="notis" type="radio"/>
 				<label>No:</label>
@@ -58,14 +65,14 @@
 				<br>
 				</div>
 				
-				<button class="but">Submit</button>
-				<button  class="but" type="reset">Reset</button> 
+				<button onclick="post()" class="crbut">Sign Up</button>
+				<button  class="crbut" type="reset">Reset</button> 
 				
 			</form>
 			
 			
 				
-		
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 		</body>
 		
 		

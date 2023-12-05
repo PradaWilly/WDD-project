@@ -1,4 +1,4 @@
-h1{
+.crh1{
     text-align:center;
     border: 10px solid black;
     border-width: 90%;
@@ -8,96 +8,76 @@ h1{
 }
 
 
-.water{
+.crwater{
     float: right;
     height:100%;
     width:35%;
     height: 1000px;
 }
 
-.land{
+.crland{
     float: left;
     height:100%;
     width:35%;
     height: 1000px;
 }
 
-body{
+.crbody{
     background-image: linear-gradient(to right,rgb(73, 110, 37), rgb(14, 166, 208) );
 }
 
-.name{
-    font-size: 25px;
-   
-}
-    
-.email{
-    font-size:25px;
-    padding-left:718px
-    
-    
-}
 
-.sname{
-    margin-left:230px;
-    margin-right:20px;
-}
 
 .snameb{
     padding:11px;
-    margin-left: 125px;
     border-radius:10px;
     padding-right:50px;
     border:4px gray solid;
 }
 
 .fname{
-    margin-left:15px;
+    margin-right:170px;
 }
 
 .fnameb{
     padding:10px;
-    margin-left:15px;
     border-radius:10px;
     padding-right:40px;
     border:4px gray solid;
    
 }
 
-.dob{
+.crdob{
     padding:10px;
-    padding-left:170px;
-    padding-right:170px;
     border-radius:10px;
     border:4px gray solid;
-    text-align: right;
+    text-align:center;
 }
 
-.email2{
+.cremail2{
     padding:10px;
-    padding-left:148px;
-    padding-right:148px;
+    padding-right:100px;
     border-radius:10px;
     border:4px gray solid;
-    text-align: center;
+    text-align: left;
    
 }
 
-h2{
+.crh2{
     text-align: center;
 }
 
-.int{
+.crint{
     font-size: 25px;
     text-align: center;
 }
 
-.notis{
+.crnotis{
     font-size: 25px;
     text-align: center;
 }
 
-.but{   
+.crbut{   
     margin-left:70px;
     width: 200px;
     height: 50px;
@@ -115,3 +95,13 @@ button {
     transition-duration: 0.4s;
   }
 
+form{
+    margin:0 auto;
+    max-width:600px;
+}
+
+@media only screen and (max-width : 320px) {       /* insert your styles here */ } /*Smartphones*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){     /* insert your styles here */ } /*iPads*/
+
+ @media only screen and (min-width : 1224px) {      /* insert your styles here */ } /* Desktops and laptops */
