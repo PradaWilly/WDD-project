@@ -1,6 +1,6 @@
 .crh1{
     text-align:center;
-    border: 10px solid black;
+    border: 6px solid black;
     border-width: 90%;
     border-radius:20px;
     padding: 10px;
@@ -10,76 +10,67 @@
 
 .crwater{
     float: right;
-    height:100%;
     width:35%;
     height: 1000px;
+    margin: auto;
+    border:4px rgb(203, 198, 198) solid;
+    border-radius: 5px;
 }
 
 .crland{
     float: left;
-    height:100%;
     width:35%;
     height: 1000px;
+    margin:auto;
+    border:4px rgb(203, 198, 198) solid;
+    border-radius: 5px;
 }
+
+@media only screen and (max-width: 900px) {
+    .crwater,
+    .crland {
+      display: none;
+    }
+  }
+
+
 
 .crbody{
     background-image: linear-gradient(to right,rgb(73, 110, 37), rgb(14, 166, 208) );
 }
 
-.crname{
-    font-size: 25px;
-   
-}
-    
-.cremail{
-    font-size:25px;
-    padding-left:718px
-    
-    
-}
-
-.sname{
-    margin-left:230px;
-    margin-right:20px;
-}
-
 .snameb{
     padding:11px;
-    margin-left: 125px;
     border-radius:10px;
     padding-right:50px;
     border:4px gray solid;
 }
 
 .fname{
-    margin-left:15px;
+    margin-right:195px;
 }
 
 .fnameb{
     padding:10px;
-    margin-left:15px;
     border-radius:10px;
-    padding-right:40px;
+    padding-right:50px;
     border:4px gray solid;
    
 }
 
 .crdob{
     padding:10px;
-    padding-left:170px;
-    padding-right:170px;
     border-radius:10px;
     border:4px gray solid;
-    text-align: right;
+    text-align:center;
 }
 
 .cremail2{
     padding:10px;
-    padding-left:148px;
-    padding-right:148px;
+    padding-right:100px;
     border-radius:10px;
     border:4px gray solid;
-    text-align: center;
+    text-align: left;
    
 }
 
@@ -98,11 +89,12 @@
 }
 
 .crbut{   
-    margin-left:70px;
+    display: inline-block;
+    
     width: 200px;
     height: 50px;
-    border-radius: 10px;;
-    border:4px gray solid;
+    border-radius: 10px;
+    border: 4px gray solid;
     font-size: 18px;
 }
 
@@ -115,3 +107,21 @@ button {
     transition-duration: 0.4s;
   }
 
+form{
+    margin:0 auto;
+    max-width:600px;
+    font-size: 20px;
+    text-align: center;
+    color: BLACK;
+}
+
+.navbar {
+    border:4px rgb(203, 198, 198) solid;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width : 320px) {       /* insert your styles here */ } /*Smartphones*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){     /* insert your styles here */ } /*iPads*/
+
+@media only screen and (min-width : 1224px) {      /* insert your styles here */ } /* Desktops and laptops */
